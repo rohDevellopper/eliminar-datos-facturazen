@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eliminar cuenta y datos · Facturazen</title>
+<meta name="description" content="Cómo eliminar tu cuenta y tus datos en Facturazen, qué se borra y qué se conserva.">
+<style>
+  :root {
+    --bg: #fbfbf9;
+    --surface: #f1f2ee;
+    --text: #1d2420;
+    --muted: #5a645e;
+    --accent: #1f5c4a;
+    --line: #d9dcd5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141a17;
+      --surface: #1c2420;
+      --text: #e6ebe7;
+      --muted: #9aa69f;
+      --accent: #7cc4a8;
+      --line: #2c3731;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 .5rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.3rem; margin: 2.6rem 0 .6rem; padding-top: 1.4rem; border-top: 1px solid var(--line); }
+  p, ul, ol { margin: .7rem 0; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: .4rem 0; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  .sub { color: var(--muted); margin: 0 0 1.6rem; }
+  .summary { background: var(--surface); border-left: 4px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; }
+  .summary p { margin: .3rem 0; }
+  .table-wrap { overflow-x: auto; margin: 1rem 0; }
+  table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .97rem; line-height: 1.5; }
+  th, td { text-align: left; vertical-align: top; padding: .6rem .7rem; border-bottom: 1px solid var(--line); }
+  th { background: var(--surface); }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Eliminar tu cuenta y tus datos</h1>
+<p class="sub">Facturazen · Desarrollador: Hamid Ezzaki</p>
+
+<div class="summary">
+  <p>Puedes borrar tu cuenta completa con todos tus datos, o borrar solo algunas facturas y conservar la cuenta. Esta página explica cómo hacerlo en cada caso y qué ocurre con tus datos.</p>
+</div>
+
+<h2 id="eliminar-cuenta">Opción 1: eliminar tu cuenta y todos tus datos</h2>
+<p><strong>Desde la app (recomendado):</strong></p>
+<ol>
+  <li>Abre [NOMBRE DE LA APP] e inicia sesión.</li>
+  <li>Ve a <strong>Ajustes</strong>.</li>
+  <li>Pulsa <strong>Eliminar cuenta y datos</strong>.</li>
+  <li>Confirma la eliminación. Es definitiva y no se puede deshacer.</li>
+</ol>
+<p><strong>Sin acceso a la app:</strong> escribe a <a href="mailto:roh2021.04@gmail.com">roh2021.04@gmail.com</a> con el asunto «Eliminar cuenta», desde el correo electrónico con el que te registraste. Así comprobamos que la cuenta es tuya. Tramitaremos la solicitud en un máximo de 30 días.</p>
+<p>Antes de eliminar tu cuenta, te recomendamos exportar tus facturas desde la pantalla de exportación de la app, para conservar una copia.</p>
+
+<h2 id="eliminar-facturas">Opción 2: borrar facturas concretas sin eliminar la cuenta</h2>
+<ol>
+  <li>Abre la lista de facturas.</li>
+  <li>Entra en la factura que quieras borrar.</li>
+  <li>Pulsa <strong>Eliminar</strong> y confirma.</li>
+</ol>
+<p>Se elimina esa factura, sus líneas, sus datos y la imagen original. El resto de tu cuenta no cambia.</p>
+
+<h2 id="que-se-borra">Qué datos se eliminan y cuáles se conservan</h2>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Datos</th><th>Qué ocurre</th></tr></thead>
+  <tbody>
+    <tr><td>Nombre, correo y contraseña</td><td>Se eliminan al borrar la cuenta.</td></tr>
+    <tr><td>Imágenes de tus facturas y tickets</td><td>Se eliminan al borrar la cuenta o la factura.</td></tr>
+    <tr><td>Datos extraídos de las facturas (proveedor, NIF, fechas, importes, líneas, categorías, notas)</td><td>Se eliminan al borrar la cuenta o la factura.</td></tr>
+    <tr><td>Contactos de asesorías y correcciones guardadas</td><td>Se eliminan al borrar la cuenta.</td></tr>
+    <tr><td>Historial de exportaciones y envíos</td><td>Se elimina al borrar la cuenta.</td></tr>
+    <tr><td>Enlaces de descarga ya enviados a tu asesoría</td><td>Dejan de funcionar al borrar la cuenta; en cualquier caso caducan a los 14 días.</td></tr>
+    <tr><td>Copias de seguridad</td><td>Se eliminan de forma automática en un plazo máximo de 30 días.</td></tr>
+    <tr><td>Datos que la ley nos obligue a conservar (por ejemplo, registros de tu solicitud de eliminación)</td><td>Se conservan bloqueados solo durante los plazos legales de prescripción y después se destruyen.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Plazos</h2>
+<ul>
+  <li>Eliminación desde la app: inmediata en tu cuenta, y completa en nuestros sistemas en un máximo de 30 días.</li>
+  <li>Eliminación por correo: tramitada en un máximo de 30 días desde que recibimos la solicitud.</li>
+</ul>
+
+<h2>Importante</h2>
+<ul>
+  <li>Si ya enviaste facturas a tu asesoría, las copias que ella descargó están bajo su responsabilidad y no podemos borrarlas.</li>
+  <li>La normativa fiscal te obliga a conservar tus facturas durante varios años. Esa obligación es tuya, así que guarda una copia exportada antes de eliminar la cuenta.</li>
+</ul>
+
+<h2>Más información</h2>
+<p>Consulta nuestra <a href="index.html">política de privacidad</a> o escríbenos a <a href="mailto:roh2021.04@gmail.com">roh2021.04@gmail.com</a>.</p>
+
+<footer>
+  <p>© 2026 facturazen. Todos los derechos reservados.</p>
+</footer>
+
+</main>
+</body>
+</html>
